@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+.sib {
+  box-shadow: inset 0 -6px 200px -10px rgba(0, 0, 0, 0.9);
+}
