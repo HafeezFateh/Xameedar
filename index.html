@@ -14,9 +14,18 @@
   <div id="header" class="bg-gradient-to-tr rounded-xl shadow-xl/50  m-3 from-stone-950 via-purple-950 to-purple-900 p-[2px]">
     <div class="bg-stone-900 shadow-2xl flex justify-between items-center  rounded-xl p-5">
       <h1 class="text-xl font-semibold bg-gradient-to-b  from-white to-stone-300 bg-clip-text text-transparent">Xameedar</h1>
-      <span onclick="handleClick()" class="material-symbols-outlined text-stone-200 "><span class="lg:hidden">menu</span></span>
+      <div class="text-lg  hidden lg:flex gap-10">
+      <a href="" class="text-white">Home</a>
+      <a href="" class="text-white">About</a>
+      <a href="" class="text-white">Blog</a>
+      <a href="" class="text-white">Contact Us</a>
+      </div>
+
+      <span onclick="handleClick()" class="material-symbols-outlined text-stone-200 lg:hidden "><span class="lg:hidden">menu</span></span>
     </div>
   </div>
+
+  <!-- Responsive menu -->
   <div id="resmenu" class="bg-gradient-to-tr rounded-xl mx-3 hidden from-stone-950 via-purple-950 to-purple-900 p-[1px] shadow ">  
     <div  class=" bg-stone-900 p-1 shadow-xl  rounded-xl">
       <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">About</a>
@@ -32,23 +41,25 @@
       <h1 class="text-4xl py-3 lg:text-5xl lg:mt-20  font-semibold bg-gradient-to-r from-stone-500 to-white bg-clip-text text-transparent">Buy and sell plots at minimum charges</h1>
       <p class="text-stone-400 text-xl lg:text-3xl">Buy & Sell Land with Trust and Transparency</p>
     </div>
-    
-    <div class="group hover:-translate-y-1 shadow-xl  transition  bg-gradient-to-tl from-purple-950 via-stone-800 to-purple-900 p-[2px] rounded-xl w-fit mt-8">
-      <div class=" bg-stone-900 flex items-center gap-2 rounded-xl  p-2 ">
-        <div class="w-[10px] h-[10px] border rounded-full bg-violet-500"></div>
-        <div class="text-slate-300"><span class="font-semibold">Buy Plots:</span> Check-In here </div>
-        <span class="material-symbols-outlined text-purple-700 group-hover:translate-x-2 px-3 transition">arrow_forward</span>
+    <div class="flex flex-col lg:items-center">
+      <div class="group hover:-translate-y-1 shadow-xl  transition  bg-gradient-to-tl from-purple-950 via-stone-800 to-purple-900 p-[2px] rounded-xl w-fit mt-8">
+        <div class=" bg-stone-900 flex items-center gap-2 rounded-xl  p-2 ">
+          <div class="w-[10px] h-[10px] border rounded-full bg-violet-500"></div>
+          <div class="text-slate-300"><span class="font-semibold">Buy Plots:</span> Check-In here </div>
+          <span class="material-symbols-outlined text-purple-700 group-hover:translate-x-2 px-3 transition">arrow_forward</span>
+        </div>
       </div>
-    </div>
 
-     
-    <div class="group hover:-translate-y-1 shadow-xl  transition  bg-gradient-to-tr from-amber-950 via-stone-800 to-amber-900 p-[2px] rounded-xl w-fit mt-5">
-      <div class=" bg-stone-900 flex items-center gap-2 rounded-xl  p-2 ">
-          <div class="w-[10px] h-[10px] border rounded-full bg-amber-500"></div>
-          <div class="text-slate-300"><span class="font-semibold">Sell Plots:</span> Check-In here </div>
-        <span class="material-symbols-outlined text-amber-700 group-hover:translate-x-2 px-3 pl-15 transition ml-auto">arrow_forward</span>
 
+      <div class="group hover:-translate-y-1 shadow-xl  transition  bg-gradient-to-tr from-amber-950 via-stone-800 to-amber-900 p-[2px] rounded-xl w-fit mt-5">
+        <div class=" bg-stone-900 flex items-center gap-2 rounded-xl  p-2 ">
+            <div class="w-[10px] h-[10px] border rounded-full bg-amber-500"></div>
+            <div class="text-slate-300"><span class="font-semibold">Sell Plots:</span> Check-In here </div>
+          <span class="material-symbols-outlined text-amber-700 group-hover:translate-x-2 px-3 pl-15 transition ml-auto">arrow_forward</span>
+
+        </div>
       </div>
+
     </div>
 
   </div>
