@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 </head>
 <body class="min-h-screen bg-stone-900">  
 
-  <div id="header" class="bg-gradient-to-tr rounded-xl shadow-xl/50  m-3 from-stone-950 via-purple-950 to-purple-900 p-[2px]">
+  <div id="header" class="bg-gradient-to-tr rounded-xl shadow-xl/50  m-3 mt-5 from-stone-950 via-purple-950 to-purple-900 p-[2px]">
     <div class="bg-stone-900 shadow-2xl flex justify-between items-center  rounded-xl p-5">
       <h1 class="text-xl font-semibold bg-gradient-to-b  from-white to-stone-300 bg-clip-text text-transparent">Xameedar</h1>
       <div class="text-lg  hidden lg:flex gap-10">
@@ -19,7 +19,7 @@
       <a href="" class="text-white">About</a>
       <a href="" class="text-white">Blog</a>
       <a href="" class="text-white">Contact Us</a>
-      </div>
+      </div> 
 
       <span onclick="handleClick()" class="material-symbols-outlined text-stone-200 lg:hidden "><span class="lg:hidden">menu</span></span>
     </div>
@@ -30,15 +30,16 @@
     <div  class=" bg-stone-900 p-1 shadow-xl  rounded-xl">
       <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">About</a>
       <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Blog</a>
-      <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Services</a>
+      <a href="#services" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Services</a>
       <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Contact us</a>
     </div>
   </div>
   
+  <!-- Hero section -->
 
-  <div id="hero" class="mx-5 my-7 h-screen">
+  <div id="hero" class="mx-5 my-7 ">
     <div class="mt-10 flex flex-col gap-2 lg:text-center ">
-      <h1 class="text-4xl py-3 lg:text-5xl lg:mt-20  font-semibold bg-gradient-to-r from-stone-500 to-white bg-clip-text text-transparent">Buy and sell plots at minimum charges</h1>
+      <h1 class="text-4xl py-3 lg:text-5xl lg:mt-15  font-semibold bg-gradient-to-r from-stone-500 to-white bg-clip-text text-transparent">Buy and sell plots at minimum charges</h1>
       <p class="text-stone-400 text-xl lg:text-3xl">Buy & Sell Land with Trust and Transparency</p>
     </div>
     <div class="flex flex-col lg:items-center">
@@ -56,13 +57,63 @@
             <div class="w-[10px] h-[10px] border rounded-full bg-amber-500"></div>
             <div class="text-slate-300"><span class="font-semibold">Sell Plots:</span> Check-In here </div>
           <span class="material-symbols-outlined text-amber-700 group-hover:translate-x-2 px-3 pl-15 transition ml-auto">arrow_forward</span>
-
         </div>
       </div>
-
     </div>
-
   </div>
+
+  <div class="mx-5 mt-10 lg:text-center">
+    <h1 class="text-lg  text-slate-300">Doesn't matter wheather you are Middleclass, Uppermiddle class, Millionaire or a MultiMillionaire.</h1>
+    <p class=" text-purple-600 text-lg">We have options for you...</p>
+  </div>
+
+  <div  id="services" class="mt-10 mx-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+    <div  class=" bg-gradient-to-br rounded-xl from-violet-800 via-stone-800 shadow-xl to-violet-950 p-[2px] ">
+      <div class="bg-stone-900 rounded-xl p-5 flex flex-col items-center justify-center gap-3 hover:bg-gradient-to-br from-stone-900 via-purple-950/10 to-stone-900">
+        <img src="./residential.svg" alt="" class="h-[100px] w-[100px]">
+        <h1 class="text-xl text-slate-300 font-semibold">Residential lands</h1>
+      </div>
+    </div>
+    <div class="bg-gradient-to-br rounded-xl from-violet-800 via-stone-800 shadow-xl to-violet-950 p-[2px]">
+      <div class="bg-stone-900 rounded-xl p-5 flex flex-col items-center justify-center gap-3 hover:bg-gradient-to-br from-stone-900 via-purple-950/10 to-stone-900">
+        <img src="./commercial.svg" alt="" class="h-[100px] w-[100px]">
+        <h1 class="text-xl text-slate-300 font-semibold">Commercial lands</h1>
+      </div>
+    </div>
+    <div class="bg-gradient-to-br rounded-xl from-violet-800 via-stone-800 shadow-xl to-violet-950 p-[2px]">
+      <div class="bg-stone-900 rounded-xl p-5 flex flex-col items-center justify-center gap-3 hover:bg-gradient-to-br from-stone-900 via-purple-950/10 to-stone-900">
+        <img src="./farming.svg" alt="" class="h-[100px] w-[100px]">
+        <h1 class="text-xl text-slate-300 font-semibold">Farming lands</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-5 mt-20 lg:mx-20">
+    <h1 class="text-slate-300 text-2xl font-semibold text-center">Have more queries? Let's talk!</h1>
+
+    <h1 class="mt-10 text-slate-300 font-semibold text-3xl">Contact Us</h1>
+    <div class="w-[40px] h-[2px] mt-1 mx-1 rounded-2xl bg-purple-500"></div>
+    <form action="" class="mt-7 flex flex-col text-slate-300">
+      <label for="" class="font-semibold text-lg">Name</label>
+      <input type="text" class="  my-4 border border-purple-800 rounded-lg p-2" placeholder="Enter your good name">
+      <label for="" class="font-semibold text-lg">Email</label>
+      <input type="email" class="my-4 border border-purple-800 rounded-lg p-2" placeholder="Enter your Mail-Id">
+      <label for="" class="font-semibold text-lg">Enquiry</label>
+      <textarea type="text" class="mt-4 border border-purple-800 rounded-lg p-2" placeholder="Your message..."></textarea>
+      <div class="my-7 flex justify-end">
+        <input type="submit" class="px-15 py-1 font-semibold text-slate-300 bg-purple-950 shadow-xl rounded-lg hover:bg-purple-950/50">
+      </div>
+    </form>
+  </div>
+
+  <footer class="mt-20  flex flex-col items-center justify-center bg-stone-800/30 ">
+    <div class="p-10 mt-5 flex flex-col items-center">
+        <h1 class="p-2 text-2xl font-semibold bg-gradient-to-r from-stone-500 via-stone-400 to-white bg-clip-text text-transparent">Xameedar</h1>
+        <p class="text-stone-300">Be the Zameendar of your dream land</p>
+    </div>
+    <p class="my-2 text-slate-50 font-light text-xs">© Xameedar 2025. All rights reserved</p>
+  </footer>
 
 <script>
   const menuTrigger = document.getElementById("resmenu");
