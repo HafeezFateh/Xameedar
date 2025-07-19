@@ -9,16 +9,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 </head>
-<body class="min-h-screen bg-stone-950">  
-
+<body class="min-h-screen bg-stone-900 flex flex-col">  
+<div class="flex-1">
   <div id="header" class="bg-gradient-to-tr rounded-xl shadow-xl/50  m-3 mt-5 from-stone-950 via-purple-950 to-purple-900 p-[2px]">
     <div class="bg-stone-900 shadow-2xl flex justify-between items-center  rounded-xl p-5">
       <h1 class="text-xl font-semibold bg-gradient-to-b  from-white to-stone-300 bg-clip-text text-transparent">Xameedar</h1>
       <div class="text-lg  hidden lg:flex gap-10">
-      <a href="" class="text-white">Home</a>
-      <a href="" class="text-white">About</a>
+      <a href="#" class="text-white">Home</a>
+      <a href="./about.html" class="text-white">About</a>
       <a href="" class="text-white">Blog</a>
-      <a href="" class="text-white">Contact Us</a>
+      <a href="#services" class="text-white">Services</a>
+      <a href="#contactus" class="text-white">Contact Us</a>
       </div> 
 
       <span onclick="handleClick()" class="material-symbols-outlined text-stone-200 lg:hidden "><span class="lg:hidden">menu</span></span>
@@ -27,11 +28,11 @@
 
   <!-- Responsive menu -->
   <div id="resmenu" class="bg-gradient-to-tr rounded-xl mx-3 hidden from-stone-950 via-purple-950 to-purple-900 p-[1px] shadow ">  
-    <div  class=" bg-stone-900 p-1 shadow-xl  rounded-xl">
-      <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">About</a>
+    <div  class="bg-stone-900 p-1 shadow-xl  rounded-xl">
+      <a href="./about.html" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">About</a>
       <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Blog</a>
       <a href="#services" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Services</a>
-      <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Contact us</a>
+      <a href="#contactus" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Contact us</a>
     </div>
   </div>
   
@@ -45,7 +46,7 @@
     <div class="flex flex-col lg:items-center">
       <div class="group hover:-translate-y-1 shadow-xl  transition  bg-gradient-to-tl from-purple-950 via-stone-800 to-purple-900 p-[2px] rounded-xl w-fit mt-8">
         <div class=" bg-stone-900 flex items-center gap-2 rounded-xl  p-2 ">
-          <div class="w-[10px] h-[10px] border rounded-full bg-violet-500"></div>
+          <div class="w-[10px] h-[10px] border rounded-full bg-purple-500"></div>
           <div class="text-slate-300"><span class="font-semibold">Buy Plots:</span> Check-In here </div>
           <span class="material-symbols-outlined text-purple-700 group-hover:translate-x-2 px-3 transition">arrow_forward</span>
         </div>
@@ -69,19 +70,19 @@
 
   <div  id="services" class="mt-10 mx-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
 
-    <div  class=" bg-gradient-to-br rounded-xl from-violet-800 via-stone-800 shadow-xl to-violet-950 p-[2px] ">
+    <div  class=" bg-gradient-to-br rounded-xl from-purple-800 via-stone-800 shadow-xl to-purple-950 p-[2px] ">
       <div class="bg-stone-900 rounded-xl p-5 flex flex-col items-center justify-center gap-3 hover:bg-gradient-to-br from-stone-900 via-purple-950/10 to-stone-900">
         <img src="./residential.svg" alt="" class="h-[100px] w-[100px]">
         <h1 class="text-xl text-slate-300 font-semibold">Residential lands</h1>
       </div>
     </div>
-    <div class="bg-gradient-to-br rounded-xl from-violet-800 via-stone-800 shadow-xl to-violet-950 p-[2px]">
+    <div class="bg-gradient-to-br rounded-xl from-purple-800 via-stone-800 shadow-xl to-purple-950 p-[2px]">
       <div class="bg-stone-900 rounded-xl p-5 flex flex-col items-center justify-center gap-3 hover:bg-gradient-to-br from-stone-900 via-purple-950/10 to-stone-900">
         <img src="./commercial.svg" alt="" class="h-[100px] w-[100px]">
         <h1 class="text-xl text-slate-300 font-semibold">Commercial lands</h1>
       </div>
     </div>
-    <div class="bg-gradient-to-br rounded-xl from-violet-800 via-stone-800 shadow-xl to-violet-950 p-[2px]">
+    <div class="bg-gradient-to-br rounded-xl from-purple-800 via-stone-800 shadow-xl to-purple-950 p-[2px]">
       <div class="bg-stone-900 rounded-xl p-5 flex flex-col items-center justify-center gap-3 hover:bg-gradient-to-br from-stone-900 via-purple-950/10 to-stone-900">
         <img src="./farming.svg" alt="" class="h-[100px] w-[100px]">
         <h1 class="text-xl text-slate-300 font-semibold">Farming lands</h1>
@@ -89,7 +90,7 @@
     </div>
   </div>
 
-  <div class="mx-5 mt-20 lg:mx-20">
+  <div id="contactus" class="mx-5 mt-20 lg:mx-20">
     <h1 class="text-slate-300 text-2xl font-semibold lg:text-center">Have more queries? Let's talk!</h1>
 
     <h1 class="mt-10 text-slate-300 font-semibold text-3xl">Contact Us</h1>
@@ -106,8 +107,8 @@
       </div>
     </form>
   </div>
-
-  <footer class="mt-20  flex flex-col items-center justify-center bg-stone-800/30 ">
+</div>
+  <footer class="mt-20 m-3 shadow-xl rounded-xl flex flex-col items-center justify-center bg-stone-800/30 ">
     <div class="p-10 mt-5 flex flex-col items-center">
         <h1 class="p-2 text-2xl font-semibold bg-gradient-to-r from-stone-500 via-stone-400 to-white bg-clip-text text-transparent">Xameedar</h1>
         <p class="text-stone-300">Be the Zameendar of your dream land</p>

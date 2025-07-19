@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body class="min-h-screen bg-stone-900 flex flex-col">  
+
+  <div id="header" class="bg-gradient-to-tr rounded-xl shadow-xl/50  m-3 mt-5 from-stone-950 via-purple-950 to-purple-900 p-[2px]">
+    <div class="bg-stone-900 shadow-2xl flex justify-between items-center  rounded-xl p-5">
+      <h1 class="text-xl font-semibold bg-gradient-to-b  from-white to-stone-300 bg-clip-text text-transparent">Xameedar</h1>
+      <div class="text-lg  hidden lg:flex gap-10">
+      <a href="./index.html" class="text-white">Home</a>
+      <a href="./about.html" class="text-white">About</a>
+      <a href="" class="text-white">Blog</a>
+      <a href="#services" class="text-white">Services</a>
+      <a href="#contactus" class="text-white">Contact Us</a>
+      </div> 
+
+      <span onclick="handleClick()" class="material-symbols-outlined text-stone-200"><span class="lg:hidden">menu</span></span>
+    </div>
+  </div>
+
+  <!-- Responsive menu -->
+  <div id="resmenu" class="bg-gradient-to-tr rounded-xl mx-3 hidden from-stone-950 via-purple-950 to-purple-900 p-[1px] shadow ">  
+    <div  class="bg-stone-900 p-1 shadow-xl  rounded-xl">
+      <a href="./about.html" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Home</a>
+      <a href="" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Blog</a>
+      <a href="#services" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Services</a>
+      <a href="#contactus" class="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Contact us</a>
+    </div>
+  </div>
+
+  <div class="flex-1 text-stone-300 flex flex-col items-center gap-4 mt-10 p-5 ">
+   
+    <h1 class="text-3xl font-semibold">About <span class="text-purple-600">Xameedar</span> - Your Trusted Land Companion</h1>
+    <p class="max-w-[1000px] text-xl">Xameedar is a modern platform built for buyers, sellers, and investors to seamlessly buy, sell, and explore land across India. Whether you're looking for a fertile agricultural plot, a residential site, or an investment-worthy land parcel, Xameedar connects you to verified listings with ease and transparency. We aim to bring digital transformation to rural and urban land dealings — making the process fast, trustworthy, and hassle-free for everyone.</p>
+  </div>
+
+    <footer class="mt-20 m-3 shadow-xl rounded-xl flex flex-col items-center justify-center bg-stone-800/30 ">
+    <div class="p-10 mt-5 flex flex-col items-center">
+        <h1 class="p-2 text-2xl font-semibold bg-gradient-to-r from-stone-500 via-stone-400 to-white bg-clip-text text-transparent">Xameedar</h1>
+        <p class="text-stone-300">Be the Zameendar of your dream land</p>
+    </div>
+    <p class="my-2 text-slate-50 font-light text-xs">© Xameedar 2025. All rights reserved</p>
+  </footer>
+    
+</body>
+</html>
