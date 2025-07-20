@@ -35,7 +35,7 @@ function Header(){
             <div id="resmenu" className="bg-gradient-to-tr rounded-xl mx-3  from-stone-950 via-purple-950 to-purple-900 p-[1px] shadow ">  
               <div  className="bg-stone-900 p-1 shadow-xl  rounded-xl">
                 <Link to="/about" className="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">About</Link>
-                <Link to="/about" className="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Plots</Link>
+                <Link to="/plots" className="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Plots</Link>
                 <Link to="/blog" className="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Blog</Link>
                 <a href="/#services" className="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Services</a>
                 <a href="/#contactus" className="p-3 bg-stone-800 rounded-xl m-2 block text-stone-300 font-semibold">Contact us</a>

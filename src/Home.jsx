@@ -8,6 +8,7 @@ function Home(){
             <h1 className="text-4xl py-3 lg:text-5xl lg:mt-15  font-semibold bg-gradient-to-r from-stone-500 to-white bg-clip-text text-transparent">Buy and sell plots at minimum charges</h1>
             <p className="text-stone-400 text-xl lg:text-3xl">Buy & Sell Land with Trust and Transparency</p>
             </div>
+            
             <div className="flex flex-col lg:items-center">
               <div className="group hover:-translate-y-1 shadow-xl  transition  bg-gradient-to-tl from-purple-950 via-stone-800 to-purple-900 p-[1px] rounded-xl w-fit mt-8">
                 <div className=" bg-stone-900 flex items-center gap-2 rounded-xl  p-2 ">
