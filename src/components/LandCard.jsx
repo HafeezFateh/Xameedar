@@ -12,7 +12,7 @@ function LandCard(){
                             <p className="text-xl text-stone-400">Melvisharam</p>
                         </div>
                         <div className="w-full flex justify-end">
-                            <a className="border hover:bg-purple-950/50 hover:text-stone-950 hover:border-stone-950 shadow-lg border-purple-900 bg-stone-800  px-5 py-1 rounded-xl text-stone-50 mx-2" href="https://wa.me/919876543210">Click</a>
+                            <a className="border hover:bg-purple-950/50 hover:text-stone-950 hover:border-stone-950 shadow-lg border-purple-900 bg-stone-800  px-5 py-1 rounded-xl text-stone-50 mx-2" href="https://wa.me/918072820843">Click</a>
                         </div>
 
                     </div>
