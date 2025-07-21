@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Blog from './Blog';
 import Plots from './Plots';
+import SellPlot from './SellPlot'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/blog" element={<Blog />}/>
                 <Route path="/plots" element={<Plots />}/>
+                <Route path="/sellplot" element={<SellPlot />}/>
             </Routes>
         </Router>
 

@@ -1,3 +1,4 @@
+import SellForm from "./components/SellForm";
 import Layout from "./layouts/Layout";
 
 function Blog(){
@@ -5,6 +6,7 @@ function Blog(){
         <div>
         <Layout>
             <h1 className="flex-1 mx-5 mt-10 text-2xl font-semibold text-slate-400">This feature is coming soon...</h1>
+           
         </Layout>  
      
         

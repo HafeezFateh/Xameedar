@@ -1,5 +1,9 @@
+import { useState } from "react";
 import Layout from "./layouts/Layout";
+import { Link } from "react-router-dom";
 function Home(){
+  const [sell, setSell] = useState();
+
     return(
         <div>
             <Layout>
@@ -18,16 +22,23 @@ function Home(){
                 </div>
               </div>
 
-
+              
+              <Link to="/sellplot">
               <div className="group hover:-translate-y-1 shadow-xl  transition  bg-gradient-to-tr from-amber-950 via-stone-800 to-amber-900 p-[1px] rounded-xl w-fit mt-5">
                 <div className=" bg-stone-900 flex items-center gap-2 rounded-xl  p-2 ">
                     <div className="w-[10px] h-[10px] border rounded-full bg-amber-500"></div>
                     <div className="text-slate-300"><span className="font-semibold">Sell Plots:</span> Check-In here </div>
                   <span className="material-symbols-outlined text-amber-700 group-hover:translate-x-2 px-3 pl-15 transition ml-auto">arrow_forward</span>
                 </div>
+                
               </div>
-            </div>
-          </div>
+              </Link>
+              
+              </div>
+            
+            
+              </div>
+         
 
           <div className="mx-5 mt-10 lg:text-center">
             <h1 className="text-lg  text-slate-300">Doesn't matter wheather you are MiddleclassName, Uppermiddle className, Millionaire or a MultiMillionaire.</h1>
