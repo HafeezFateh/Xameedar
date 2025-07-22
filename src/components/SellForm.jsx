@@ -5,6 +5,7 @@ function SellForm(){
     const shees = {
         fontSize:"25px",
         // fontWeight: "bold"
+        
     }
     return(
         <>
