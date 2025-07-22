@@ -4,12 +4,12 @@ function SellForm(){
 
     const shees = {
         fontSize:"25px",
-        fontWeight: "bold"
+        // fontWeight: "bold"
     }
     return(
         <>
 
-            <div className="mx-5 rounded-xl mt-10 font-semibold bg-white/50 p-5 ">
+            <div className="mx-2 rounded-xl mt-10 font-semibold bg-stone-200/50 p-5 ">
                 <Link to="/">
                     <span class="material-symbols-outlined float-end text-stone-900 " style={shees}>close</span>
                 </Link>
